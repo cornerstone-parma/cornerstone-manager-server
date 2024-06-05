@@ -1,0 +1,6 @@
+﻿services:
+  cornerstonemanagerserver:
+    image: cornerstonemanagerserver
+    build:
+      context: .
+      dockerfile: CornerstoneManagerServer/Dockerfile

@@ -1,0 +1,6 @@
+@CornerstoneManagerServer_HostAddress = http://localhost:5229
+
+GET {{CornerstoneManagerServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
